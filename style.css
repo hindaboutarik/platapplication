@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+html { overflow-y: scroll; }
+html, body { height: 100%; border: 0; margin: 0; padding: 0; }
+body { width: 100%; background: url(images/bg.png) left top repeat; font-family: "Noto Serif", serif; font-size: 13px; color: #555555; height: 768px; -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;}
+
+	
+#header { top:-41px;  width: 707px; height: 207px; background: url(images/header_bg.png) no-repeat center top; margin: 0 auto; z-index: 2; position: relative; padding: 11px 175px 0 152px; }
+
+
+
+#container{
+	width:860px;
+height:880px;
+	background-color:white;
+	margin: 0 auto;
+	margin-top:-190px;
+		}
+		
+		#header_gris{
+			width:91.3%;
+			margin:0 auto;
+			height:165px;
+			background-color:#948DC1;
+			url(images/submenu.png) no-repeat center bottom;
+				background-size:759px 10px;
+			}
+			#submenu{
+				width:783px;
+				height:10px;
+				margin:0 auto;
+				background: url(images/submenu.png) no-repeat center bottom;
+				background-size:783px 10px;
+				}
+			
+			.plat{
+				opacity:0;
+			display:none;
+		width:832px;
+				margin:50px auto;
+				position:relative;
+height:415px;
+				}
+					#plat_francais{background: url(images/plat_francais.jpg) center center no-repeat;}
+					#plat_arabe{background: url(images/plat_arabe.jpg) center center no-repeat;}
+
+
+
+.plat img{
+		position:absolute;
+	}
+		
+#plat_francais #apple { right: 14px; top: 112px; }
+#plat_francais #beans { right: 0; top: 188px; }
+#plat_francais #greenbeans { left: 89px; top: 175px; }
+#plat_francais #bread { right: 112px; top: 20px; }
+#plat_francais #carrots { right: 135px; top: 215px; }
+#plat_francais #spinach { left: 720px; top: 388px; }
+#plat_francais #cheese { left: -7px; top: 196px; z-index: 2; }
+#plat_francais #chicken { left: 47px; top: 190px; }
+#plat_francais #eggs { right: 75px; top: 216px; }
+#plat_francais #fish { left: 60px; top: 128px; }
+#plat_francais #grain { right: 0; }
+#plat_francais #grapes { bottom: -25px; left: 48px; z-index: 1; }
+#plat_francais #ice-cream { right: 42px; top: 257px; }
+#plat_francais #milk { left: -7px; top: 368px; }
+#plat_francais #pasta { left: 83px; top: 235px; z-index: 1; }
+#plat_francais #broccoli { left: -5px; top: 250px; z-index: 2; }
+#plat_francais #steak { right: 114px; top: 96px; }
+#plat_francais #strawberry { left: 0; top: 306px; }
+#plat_francais #tomato { right: 3px; top: 340px; }
+#plat_francais #tuna { right: 143px; top: 185px; }
+#plat_francais #yogurt { right: 84px; top: 143px; }
+#plat_francais #lettuce { left: 75px; top: 308px; }
+#plat_francais #cucumber { left: 633px; top: 305px; }
+#plat_francais #peppers { left: -5px; top: 130px; }
+		
+		
+				
+#plat_arabe #apple { right: 14px; top: 123px; }
+#plat_arabe #beans { right: 0; top: 194px; }
+#plat_arabe #greenbeans { left: 89px; top: 175px; }
+#plat_arabe #bread { left: 102px; top: 35px; }
+#plat_arabe #carrots { right: 135px; top: 205px; }
+#plat_arabe #spinach { left: 720px; top: 388px; }
+#plat_arabe #cheese { left: -7px; top: 196px; z-index: 2; }
+#plat_arabe #chicken { left: 47px; top: 190px; }
+#plat_arabe #eggs { right: 75px; top: 216px; }
+#plat_arabe #fish { left: 60px; top: 128px; }
+#plat_arabe #grain { leftt: 60px; }
+#plat_arabe #grapes { bottom: -25px; left: 48px; z-index: 1; }
+#plat_arabe #ice-cream { right: 42px; top: 257px; }
+#plat_arabe #milk { left: -7px; top: 368px; }
+#plat_arabe #pasta { left: 83px; top: 235px; z-index: 1; }
+#plat_arabe #broccoli { left: -5px; top: 250px; z-index: 2; }
+#plat_arabe #steak { right: 144px; top: 96px; }
+#plat_arabe #strawberry { left: 0; top: 306px; }
+#plat_arabe #tomato { right: 3px; top: 340px; }
+#plat_arabe #tuna { right: 143px; top: 180px; }
+#plat_arabe #yogurt { right: 84px; top: 143px; }
+#plat_arabe #lettuce { left: 75px; top: 308px; }
+#plat_arabe #cucumber { left: 633px; top: 295px; }
+#plat_arabe #peppers { left: -5px; top: 130px; }
+		
+		
+		
+		
+		/*boutton langue*/
+		
+		#langue{
+				width:500px;
+	margin:10px auto;
+	}
+	
+	#enfant{
+			margin:5% auto;
+
+		}
+	
+.button_langue {
+cursor:pointer;
+	-moz-box-shadow:inset 1px 1px 20px 1px #b3aed3;
+	-webkit-box-shadow:inset 1px 1px 20px 1px #b3aed3;
+	box-shadow:inset 1px 1px 20px 1px #b3aed3;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d3d0e5), color-stop(1, #b3aed3) );
+	background:-moz-linear-gradient( center top, #d3d0e5 5%, #b3aed3 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d3d0e5', endColorstr='#b3aed3');
+	background-color:#d3d0e5;
+	-webkit-border-top-left-radius:4px;
+	-moz-border-radius-topleft:4px;
+	border-top-left-radius:4px;
+	-webkit-border-top-right-radius:4px;
+	-moz-border-radius-topright:4px;
+	border-top-right-radius:4px;
+	-webkit-border-bottom-right-radius:4px;
+	-moz-border-radius-bottomright:4px;
+	border-bottom-right-radius:4px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-bottomleft:4px;
+	border-bottom-left-radius:4px;
+	text-indent:0px;
+	border:1px solid #e6edf5;
+	display:inline-block;
+	color:#5b3a8c;
+	font-family:Arial;
+	font-size:23px;
+	font-weight:bold;
+	font-style:normal;
+	height:70px;
+	line-height:70px;
+	width:140px;
+	text-decoration:none;
+	text-align:center;
+}
+.button_langue:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b3aed3), color-stop(1, #d3d0e5) );
+	background:-moz-linear-gradient( center top, #b3aed3 5%, #d3d0e5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3aed3', endColorstr='#d3d0e5');
+	background-color:#b3aed3;
+}.button_langue:active {
+	position:relative;
+	top:1px;
+}
+
+	/*Fin boutton langue*/
